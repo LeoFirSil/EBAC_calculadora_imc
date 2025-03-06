@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td, th {
+    border: none;
+}
+
+.textPri {
+    width: 600px;
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: var(--corPrincipal);
+    color: var(--corBr);
+}
+
+.itemPri {
+    text-align: left;
+    padding: 8px 20px;
+    font-size: 13px;
+    color: var(--corPrincipal);
+}
+
+.itemPriResult {
+    color: var(--corPrincipal);
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 13px;
+}
+
+.item {
+    text-align: left;
+    padding: 8px 20px;
+    font-size: 13px;
+    color: var(--corText);
+    font-weight: bold;
+}
+
+.itemResult {
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 13px;
+    color: var(--corText);
+    font-weight: bold;
+}
+
+.textSec {
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 40px 0;
+    width: 200px;
+    border-radius: 20px;
+    background-color: var(--corSecundaria);
+    color: var(--corBr);
+}
+
+.modificador{
+    border-bottom: 1px solid var(--corText);
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 690px;
+    height: 734px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrincipal: #1f5eaf;
+    --corSecundaria: #ff5202;
+    --corText: #707070;
+    --corBr: #fff;
+    --corCi: #a2a2a2;
+}
+
+h1 {
+    color: var(--corPrincipal);
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+p {
+    color: var(--corText);
+    margin: 0 0 10px;
+    font-size: 13px;
+}

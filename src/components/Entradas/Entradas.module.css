@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        color: var(--corPrincipal);
+        max-width: 130px;
+        margin: 0 20px 0 0;
+
+    }
+
+    .text {
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+
+    .inp {
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: 1px solid var(--corPrincipal);
+
+        &::placeholder {
+            color: var(--corCi);
+        }
+    }
+}
+

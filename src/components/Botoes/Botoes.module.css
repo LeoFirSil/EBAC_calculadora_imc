@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    margin: 10px 0 25px;
+
+    .box {
+        margin: 0 30px 0 0;
+    }
+
+    .btn {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        padding: 13px 45px 13px 28px;
+        font-size: 13px;
+        border-radius: 50px;
+        border: none;
+        color: var(--corBr);
+        font-weight: bold;
+        
+    }
+
+    .btn--pri {
+        background-color: var(--corPrincipal);
+        cursor: pointer;
+    }
+
+    .btn--sec {
+        background-color: var( --corSecundaria);
+        cursor: pointer;
+    }
+}
+
+.icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    height: 9px;
+    width: 9px;
+    border-top: 2px solid var(--corBr);
+    border-right: 2px solid var(--corBr);
+    transform: rotate(45deg);
+}
+
+.icon--pri {
+    top:40%;
+    left: 80%;
+}
+
+.icon--sec {
+    top:40%;
+    left: 80%;
+}
