@@ -59,3 +59,23 @@ td, th {
 .modificador{
     border-bottom: 1px solid var(--corText);
 }
+
+.none {
+    background-color: none;
+}
+
+.yellow {
+    background-color: rgb(247, 247, 139);
+  }
+  
+  .green {
+    background-color: rgb(148, 233, 148);
+  }
+  
+  .red {
+    background-color: rgba(255, 0, 0, 0.495);
+  }
+  
+  .darkRed {
+    background-color: darkred;
+  }
