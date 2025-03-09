@@ -3,7 +3,8 @@ table {
     width: 600px;
 }
 
-td, th {
+td,
+th {
     border: none;
 }
 
@@ -56,26 +57,22 @@ td, th {
     color: var(--corBr);
 }
 
-.modificador{
+.modificador {
     border-bottom: 1px solid var(--corText);
 }
 
-.none {
-    background-color: none;
+.Am {
+    background-color: rgb(247, 247, 139);
 }
 
-.yellow {
-    background-color: rgb(247, 247, 139);
-  }
-  
-  .green {
+.Vd {
     background-color: rgb(148, 233, 148);
-  }
-  
-  .red {
+}
+
+.Vm {
     background-color: rgba(255, 0, 0, 0.495);
-  }
-  
-  .darkRed {
+}
+
+.VmE {
     background-color: darkred;
-  }
+}

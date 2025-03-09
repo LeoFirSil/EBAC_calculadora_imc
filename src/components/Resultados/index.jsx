@@ -4,21 +4,21 @@ import styles from "./Resultados.module.css"
 
 
 const getRowClass = (imc, min, max) => {
-    if (imc < 18.5 && imc > 0) return styles.yellow;
-    if (imc >= 18.5 && imc < 25) return styles.green;
-    if (imc >= 25 && imc < 30) return styles.yellow;
-    if (imc >= 30 && imc < 40) return styles.red;
-    if (imc >= 40) return styles.darkRed;
+    if (imc < 18.5 && imc > 0) return styles.Am;
+    if (imc >= 18.5 && imc < 25) return styles.Vd;
+    if (imc >= 25 && imc < 30) return styles.Am;
+    if (imc >= 30 && imc < 40) return styles.Vm;
+    if (imc >= 40) return styles.VmE;
     return "";
 };
 
 const Resultados = ({ imc }) => {
     const getClassForIMC = (classification) => {
-        if (classification === "MAGREZA" && imc > 0 && imc < 18.5) return styles.yellow;
-        if (classification === "NORMAL" && imc >= 18.5 && imc < 25) return styles.green;
-        if (classification === "SOBREPESO" && imc >= 25 && imc < 30) return styles.yellow;
-        if (classification === "OBESIDADE" && imc >= 30 && imc < 40) return styles.red;
-        if (classification === "OBESIDADE GRAVE" && imc >= 40) return styles.darkRed;
+        if (classification === "MAGREZA" && imc > 0 && imc < 18.5) return styles.Am;
+        if (classification === "NORMAL" && imc >= 18.5 && imc < 25) return styles.Vd;
+        if (classification === "SOBREPESO" && imc >= 25 && imc < 30) return styles.Am;
+        if (classification === "OBESIDADE" && imc >= 30 && imc < 40) return styles.Vm;
+        if (classification === "OBESIDADE GRAVE" && imc >= 40) return styles.VmE;
         return "";
     };
 
